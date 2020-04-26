@@ -1,0 +1,2 @@
+First mini-project. Deconstruct existing webpage and rebuild it.  From The Odin Project's [curriculum](http://www.theodinproject.com/courses/web-development-101/lessons/html-css)
+As a complete beginner this project took a lot of time. I am far from perfect but I learned a lot! 

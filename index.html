@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>recreate-google-homepage</title>
+        <style>
+            html {
+                height:100%;
+                box-sizing: border-box;
+            }
+            body {
+                position: relative;
+                padding-top: 0;
+                padding-bottom: 0;
+                margin: 0;
+                min-height: 100%;
+                text-align: center;
+            }
+            header {
+                padding: 13px;
+                font-size: 13px;
+                color: rgb(53, 53, 53);
+            }
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+            }
+            li {
+                float: right;
+            }
+            li a {
+                font-family: arial, sans-serif;
+                color: inherit;
+                display: block;
+                padding: 10px;
+                text-align: center;
+                text-decoration: none;
+            }
+            #logo {
+                position: absolute;
+                visibility: visible;
+                left: 500px;
+                top: 140px;
+                height: 100px;
+                width: 150px;
+            }
+            .sign-in {
+                background-color: rgb(27, 128, 245);
+                color: white;
+                font-family: arial, sans-serif;
+                font-weight: bold;
+                padding: 6px 13px;
+                border-radius: 2px;
+            }
+            .search-bar {
+                border-radius: 25px;
+                box-shadow: 1px 1px 4px 2px rgb(236, 235, 235);
+                border-style: none;
+                padding: 17px 230px;
+                position: absolute;
+                left: 400px;
+                top: 270px;
+            }
+            .searchglass {
+                width: 20px;
+                opacity: .33;
+                position: absolute;
+                left:415px;
+                top: 285px;
+            }
+            .mic {
+                width: 20px;
+                opacity: .33;
+                position: absolute;
+                left: 970px;
+                top: 285px;
+            }
+            footer {
+                background-color: rgb(241, 237, 237);
+                font-size: 14px;
+                color: rgb(85, 83, 83);
+                margin: 0;
+                padding: 3px;
+                position: absolute;
+                bottom: 0;
+                box-sizing: border-box;
+                width: 100%;
+            }
+            .button-search {
+                background-color: #f3f1f1;
+                border: none;
+                border-radius: 4px;
+                color: rgb(85, 83, 83);
+                padding: 9px 14px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 14px;
+                margin: 4px 2px;
+                position: absolute;
+                top: 345px;
+                left: 550px;
+            }
+            .button-lucky {
+                background-color: #f3f1f1;
+                border: none;
+                border-radius: 4px;
+                color: rgb(85, 83, 83);
+                padding: 9px 14px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 14px;
+                margin: 4px 2px;
+                position: absolute;
+                top: 345px;
+                left: 680px;
+            }
+        </style>
+    </head>
+    <body>
+     <header>
+        <ul>
+           <li style="float: left"><a href="#About">About</a></li>
+           <li style="float: left"><a href="#Store">Store</a></li>
+           <li class="sign-in">Sign In</li>
+           <li><a href="Apps"><img src="images/baseline_apps_black_18dp.png" style="opacity: .52"></a></li>
+           <li><a href="Images">Images</a></li>
+           <li><a href="Gmail">Gmail</a></li>
+       </ul>
+    </header>
+       <main>
+          <div id="logo">
+          <img style="-webkit-user-select:none; margin: 13% 39%; padding:env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google logo">
+            </div>
+            <div>
+                <input type="text" class="search-bar">
+                <img class="searchglass" src="images/baseline_search_black_18dp.png">
+                <img class="mic" src="images/baseline_mic_black_18dp.png">
+            </div>
+            <button class="button-search" type="text"Google Search">Google Search</button>
+            <button class="button-lucky" type="text"I'm Feeling Lucky">I'm Feeling Lucky</button>
+         </main>
+     <footer>
+         <ul>
+             <li style="float: left"><a href="#Advertising">Advertising</a></li>
+             <li style="float: left"><a href="#Business">Business</a></li>
+             <li style="float: left"><a href="#How search works">How search works</a></li>
+             <li><a href="#Privacy">Privacy</a></li>
+             <li><a href="#Terms">Terms</a></li>
+             <li><a href="#Settings"></a></li>
+         </ul>
+     </footer>
+    </body>
+</html>
